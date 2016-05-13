@@ -13,6 +13,8 @@
 		5B2D390E1CE664720064DF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D390C1CE664720064DF03 /* Main.storyboard */; };
 		5B2D39101CE664720064DF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D390F1CE664720064DF03 /* Assets.xcassets */; };
 		5B2D39131CE664720064DF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D39111CE664720064DF03 /* LaunchScreen.storyboard */; };
+		5B2D391F1CE67BB40064DF03 /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D391E1CE67BB40064DF03 /* PaintingView.m */; };
+		5B2D39221CE682610064DF03 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D39211CE682610064DF03 /* LineSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		5B2D390F1CE664720064DF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2D39121CE664720064DF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2D39141CE664720064DF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2D391D1CE67BB40064DF03 /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintingView.h; path = ../PaintingView.h; sourceTree = "<group>"; };
+		5B2D391E1CE67BB40064DF03 /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintingView.m; path = ../PaintingView.m; sourceTree = "<group>"; };
+		5B2D39201CE682610064DF03 /* LineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		5B2D39211CE682610064DF03 /* LineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				5B2D39071CE664720064DF03 /* AppDelegate.m */,
 				5B2D39091CE664720064DF03 /* ViewController.h */,
 				5B2D390A1CE664720064DF03 /* ViewController.m */,
+				5B2D391D1CE67BB40064DF03 /* PaintingView.h */,
+				5B2D391E1CE67BB40064DF03 /* PaintingView.m */,
+				5B2D39201CE682610064DF03 /* LineSegment.h */,
+				5B2D39211CE682610064DF03 /* LineSegment.m */,
 				5B2D390C1CE664720064DF03 /* Main.storyboard */,
 				5B2D390F1CE664720064DF03 /* Assets.xcassets */,
 				5B2D39111CE664720064DF03 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			files = (
 				5B2D390B1CE664720064DF03 /* ViewController.m in Sources */,
 				5B2D39081CE664720064DF03 /* AppDelegate.m in Sources */,
+				5B2D39221CE682610064DF03 /* LineSegment.m in Sources */,
+				5B2D391F1CE67BB40064DF03 /* PaintingView.m in Sources */,
 				5B2D39051CE664720064DF03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
