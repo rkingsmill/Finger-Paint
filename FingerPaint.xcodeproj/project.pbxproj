@@ -15,6 +15,7 @@
 		5B2D39131CE664720064DF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D39111CE664720064DF03 /* LaunchScreen.storyboard */; };
 		5B2D391F1CE67BB40064DF03 /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D391E1CE67BB40064DF03 /* PaintingView.m */; };
 		5B2D39221CE682610064DF03 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D39211CE682610064DF03 /* LineSegment.m */; };
+		5B2D39481CE7C8890064DF03 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D39471CE7C8890064DF03 /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		5B2D391E1CE67BB40064DF03 /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintingView.m; path = ../PaintingView.m; sourceTree = "<group>"; };
 		5B2D39201CE682610064DF03 /* LineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
 		5B2D39211CE682610064DF03 /* LineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
+		5B2D39461CE7C8890064DF03 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		5B2D39471CE7C8890064DF03 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				5B2D391E1CE67BB40064DF03 /* PaintingView.m */,
 				5B2D39201CE682610064DF03 /* LineSegment.h */,
 				5B2D39211CE682610064DF03 /* LineSegment.m */,
+				5B2D39461CE7C8890064DF03 /* Line.h */,
+				5B2D39471CE7C8890064DF03 /* Line.m */,
 				5B2D390C1CE664720064DF03 /* Main.storyboard */,
 				5B2D390F1CE664720064DF03 /* Assets.xcassets */,
 				5B2D39111CE664720064DF03 /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2D390B1CE664720064DF03 /* ViewController.m in Sources */,
+				5B2D39481CE7C8890064DF03 /* Line.m in Sources */,
 				5B2D39081CE664720064DF03 /* AppDelegate.m in Sources */,
 				5B2D39221CE682610064DF03 /* LineSegment.m in Sources */,
 				5B2D391F1CE67BB40064DF03 /* PaintingView.m in Sources */,
@@ -312,6 +318,7 @@
 				5B2D39191CE664720064DF03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

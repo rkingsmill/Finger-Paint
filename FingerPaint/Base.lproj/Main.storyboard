@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,7 +20,26 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0XS-fG-wkN" customClass="PaintingView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="klu-15-KKv">
+                                        <rect key="frame" x="8" y="631" width="359" height="29"/>
+                                        <segments>
+                                            <segment title="Red"/>
+                                            <segment title="Blue"/>
+                                            <segment title="Green"/>
+                                            <segment title="Yellow"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="indexChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Fhw-A4-Dtj"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="klu-15-KKv" firstAttribute="trailing" secondItem="0XS-fG-wkN" secondAttribute="trailingMargin" id="87w-HF-uL8"/>
+                                    <constraint firstItem="klu-15-KKv" firstAttribute="bottom" secondItem="0XS-fG-wkN" secondAttribute="bottomMargin" id="qTd-RP-zzO"/>
+                                    <constraint firstItem="klu-15-KKv" firstAttribute="leading" secondItem="0XS-fG-wkN" secondAttribute="leadingMargin" id="yxa-XG-ZJI"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -31,6 +51,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="paintingView" destination="0XS-fG-wkN" id="Q91-aI-KjZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

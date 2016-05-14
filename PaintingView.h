@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface PaintingView : UIView
+@property (nonatomic) UIColor* brushColor;
 
 @end
